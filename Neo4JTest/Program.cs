@@ -15,9 +15,9 @@ namespace Neo4JTest
                 .AddJsonFile("appsettings.json", true, true)
                 .Build();
 
-             //HelloWorldTest();
+            HelloWorldTest();
 
-            PizzaOrder();
+            //PizzaOrder();
         }
 
         public static void HelloWorldTest()
